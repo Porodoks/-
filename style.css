@@ -1,0 +1,351 @@
+body {
+    margin: 0;
+}
+h1, h2, h3 {
+    font-family: 'Readex pro', sans-serif;
+    font-weight: 400;
+}
+p {
+    font-family: 'Readex pro', sans-serif;
+    font-weight: 400;
+}
+.navigation {
+    width: 1294px;
+    margin: 0 auto;
+}
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+    font-family: 'Inter', sans-serif;
+}
+.menu li {
+    display: inline;
+    padding: 0 23px;
+}
+.menu li img {
+    padding-left: 7px;
+}
+.menu ul {
+    font-size: 0;
+}
+.menu ul a {
+    font-size: 15px;
+}
+.menu ul a:link, .menu ul a:visited {
+    color: black;
+    text-decoration: none;
+}
+.menu ul a:hover {
+    text-decoration: underline;
+}
+.images img {
+    margin-right: 20px;
+}
+.bg {
+    width: 1294px;
+    height: 550px;
+    margin: 50px auto 0 auto;
+    background: url(img/bg.png) center no-repeat;
+}
+.bg-text {
+    width: 620px;
+    padding-top: 85px;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+.arrowl {
+    padding: 250px 20px;
+}
+.arrowr {
+    padding: 263px 20px;
+}
+.title {
+    font-size: 58px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+.subtitle {
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+.bg-text a {
+    font-family: 'Iter', sans-serif;
+    padding: 13px 48px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.bg-text a:link, .bg-text a:visited {
+    color: black;
+    text-decoration: none;
+}
+.bg-text a:hover {
+    text-decoration: underline;
+}
+.lines {
+    width: 1294px;
+    height: 70px;
+    background: url(img/lines.png) center no-repeat;
+    margin-top: 77px;
+}
+.shop {
+    width: 1350px;
+    margin: 80px auto 0 auto;
+    text-align: center;
+}
+.shop h1 {
+    font-size: 42px; 
+    margin-bottom: 15px;
+}
+.shop h2 {
+    font-size: 14px;
+    width: 600px;
+    margin: 0 auto;
+}
+.shop img {
+    margin-top: 30px;
+}
+.save {
+    width: 1294px;
+    margin: 0 auto;
+}
+.up {
+    text-align: center;
+}
+.up h1 {
+    font-size: 42px;
+    margin-bottom: 0;
+}
+.up h2 {
+    font-size: 13px;
+}
+.down {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.down-block h1 {
+    margin-bottom: 0;
+    font-size: 22px;
+}
+.block-subtitle {
+    width: 265px;
+    font-size: 14px;
+    color: #4b4b4b;
+    margin-top: 10px;
+}
+.block-unik {
+    margin-bottom: 35px;
+}
+.block-price {
+    font-size: 18px;
+}
+.ideas-down {
+    width: 1294px;
+    margin: 50px auto 0 auto;
+}
+.ideas-down img {
+    float: left;
+}
+.ideas-right {
+    font-size: 24px;
+    margin-left: 655px;
+}
+.ideas-right p {
+    width: 610px;
+}
+.clear {
+    clear: both;
+}
+.first {
+    padding-top: 20px;
+}
+.see {
+    width: 200px;
+    margin: 70px auto;
+    font-size: 24px;
+    text-align: center;
+}
+.see a:link, .see a:visited {
+    color: black;
+    text-decoration: none;
+    font-family: 'Inter';
+}
+.see a:hover {
+    text-decoration: underline;
+}
+.search {
+    width: 935px;
+    margin: 0 auto;
+}
+.search h1 {
+    font-size: 42px;
+    text-align: center;
+}
+.search-btn {
+    border: 1px solid #c5c5c5;
+    border-radius: 100px;
+    background-color: #f8f8fa;
+    width: 650px;
+    margin: 0 auto 30px auto;
+}
+.search-btn img {
+    float: left;
+    padding: 14px 25px 14px 15px;
+}
+.search-a a:link, .search-a a:visited {
+    color: black;
+    text-decoration: none;
+}
+.search-a a:hover {
+    cursor: text;
+}
+.btn-line a:link, .btn-line a:visited, .btn-line-2 a:link, .btn-line-2 a:visited {
+    color: black;
+    text-decoration: none;
+}
+.btn-line a, .btn-line-2 a {
+    border: 1px solid #c5c5c5;
+    border-radius: 100px;
+    padding: 10px 20px;
+}
+.keywords {
+    width: 600px;
+    margin: 0 auto;
+}
+.btn-line {
+    margin-bottom: 20px;
+}
+.keywords a, .keywords-2 a {
+    margin: 0 5px;
+}
+.keywords p {
+    display: flex;
+    align-items: center;
+}
+.keywords-2 {
+    width: 480px;
+    margin: 0 auto;
+}
+.search-bg {
+    width: 935px;
+    height: 450px;
+    background: url(img/search-bg.png) center no-repeat;
+    margin-top: 80px;
+}
+.search-text {
+    text-align: center;
+    padding-top: 50px;
+}
+.search-text h1 {
+    margin: 0;
+    font-size: 42px;
+}
+.search-text p {
+    margin-top: 10px;
+    font-size: 16px;
+}
+.search-img {
+    margin-left: 350px;
+}
+.mail-a {
+    margin-left: 230px;
+    margin-top: 25px;
+}
+.mail-1 a {
+    padding: 13px 230px 13px 30px;
+    border: 1px solid black;
+    border-radius: 100px 0 0 100px;
+    font-family: 'Inter';
+    font-size: 14px;
+}
+.mail-1 a:link, .mail-1 a:visited {
+    color: black;
+    text-decoration: none;
+}
+.mail-1 a:hover {
+    cursor: text;
+}
+.mail-2 a {
+    padding: 13px 30px;
+    border: 1px solid black;
+    border-radius: 0 100px 100px 0;
+    background-color: black;
+    font-family: 'Inter';
+    font-size: 14px;
+}
+.mail-2 a:link, .mail-2 a:visited {
+    color: white;
+    text-decoration: none;
+}
+.mail-2 a:hover {
+    text-decoration: underline;
+}
+footer {
+    background-color: #f8f9fa;
+    border-top: 1px solid #dce5e2;
+    margin-top: 20px;
+    overflow: hidden;
+}
+.list {
+    display: flex;
+    float: right;
+}
+.footer-list {
+    width: 1200px;
+    margin: 55px auto;
+}
+.footer-logo {
+    float: left;
+}
+.list ul {
+    margin: 0 0 0 100px;
+}
+.list li {
+    font-size: 17px;
+    font-family: 'Inter';
+    list-style-type: none;
+    line-height: 2rem;
+}
+.act {
+    font-family: 'Readex Pro';
+    font-size: 28px;
+    font-weight: bold;
+}
+.list a:link, .list a:visited {
+    color: black;
+    text-decoration: none;
+} 
+.list a:hover {
+    text-decoration: underline;
+}
+.last {
+    width: 1294px;
+    margin: 50px auto 0 auto;
+    border-top: 1px  solid #dce5e2;
+}
+.footer-left {
+    float: left;
+    margin: 30px 0 5px 0;
+}
+.footer-right {
+    float: right;
+    margin: 30px 0 5px 0;
+}
+.bold {
+    font-family: 'Readex Pro';
+    font-size: 18px;
+    font-weight: bold;
+}
+.last-a a:link, .last-a a:visited {
+    color: black;
+    text-decoration: none;
+    font-family: 'Inter';
+    font-size: 18px;
+}
